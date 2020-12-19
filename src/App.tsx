@@ -22,6 +22,9 @@ function App() {
         <div>
           <NavigationBar />
           <Switch>
+          <Route exact path="/">
+            <GlobalView />
+           </Route>
           <Route path="/devices/EditDevices"><br></br>
             <EditDevices />
           </Route>
